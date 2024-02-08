@@ -1,0 +1,12 @@
+account_id = "1038c3baca04a332bdbe1736359e7525"
+name = "bta"
+type = "webpack"
+workers_dev = true
+
+[env.production]
+zone_id = "891b08e192efc73549a12ddb79100b7a"
+route = "bt.associates/*"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
